@@ -24,7 +24,7 @@ int main(){
   int test_case;
   cin >> test_case;
   for(int i = 0; i < test_case; i++){
-    string tmp0 = "testcase\\input\\input",tmp1 = "testcase\\output\\output";
+    string tmp0 = "testcase/input/input",tmp1 = "testcase/output/output";
     if(i > 9)tmp0 += to_string(i),tmp1 += to_string(i);
     else tmp0 += ('0') + to_string(i),tmp1 += ('0') + to_string(i);
     tmp0 += ".txt",tmp1 += ".txt";
